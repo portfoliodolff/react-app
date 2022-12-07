@@ -1,19 +1,47 @@
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Public Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-.navbar {
+  }
+  
+  .navbar {
     background-color: #22668A;
-}
-.category-aktif{
+  }
+  
+  .category-aktif {
     background-color: #22668A;
     color: white;
-}
-.btn-primary{
+  }
+  
+  .btn-primary {
     background-color: #22668A;
-}
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-}
+  }
+  
+  @media only screen and (max-height: 1000px) {
+    .hasil {
+      height: 650px;
+    }
+    
+    .menu {
+      height: 800px;
+    }
+  }
+  @media only screen and (max-height: 850px) {
+    .hasil {
+      height: 450px;
+    }
+    
+    .menu {
+      height: 600px;
+    }
+  }
+  
+  .overflow-auto::-webkit-scrollbar{
+    display: none;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
