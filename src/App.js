@@ -4,7 +4,7 @@ import {
   Routes,
   Route} from "react-router-dom";
 import { NavbarComponent } from './components';
-import {Home,Sukses} from './pages/index.js'
+import {Home,Sukses,Pesanan} from './pages/index.js'
 
 
 export default class App extends Component {
@@ -16,6 +16,7 @@ export default class App extends Component {
           <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/sukses" element={<Sukses/>}/>
+            <Route path="/Pesanan" element={<Pesanan/>}/>
           </Routes>
         </main>
       
